@@ -1,13 +1,5 @@
-def is_palindrome(text):
-    # Standardize the text: lowercase it and remove non-alphanumeric characters
-    clean_text = .join(char.lower() for char in text if char.isalnum())
-
-    # Check if the text reads the same forward and backward
-    return clean_text == clean_text[::-1]
-
-# Examples
-print(is_palindrome(racecar))  # Returns: True
-print(is_palindrome(RadAr))    # Returns: True (Case-insensitive)
-print(is_palindrome(A man, a plan, a canal: Panama)) # Returns: True (Ignores spaces/punctuation)
-print(is_palindrome(hello))    # Returns: False
+# Loop through numbers from 1 to 10
+for num in range(1, 11):
+    square = num ** 2
+    print(fThe square of {num} is {square})
 
