@@ -1,8 +1,3 @@
-# Loop through numbers from 1 to 10
-for num in range(1, 11):
-    square = num ** 2
-    print(fThe square of {num} is {square})
-
 def is_palindrome(text):
     # Standardize the text: lowercase it and remove non-alphanumeric characters
     clean_text = .join(char.lower() for char in text if char.isalnum())
