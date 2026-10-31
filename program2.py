@@ -8,4 +8,3 @@ def is_palindrome(text):
 # Examples
 print(is_palindrome(racecar))  # Returns: True
 print(is_palindrome(RadAr))    # Returns: True (Case-insensitive)
-print(is_palindrome(hello))    # Returns: False
